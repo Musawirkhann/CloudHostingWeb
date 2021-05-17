@@ -100,11 +100,16 @@ pre {
 .showcase-form {
   position: relative;
   top: 60px;
-  height: 350px;
+  height: 370px;
   width: 400px;
   padding: 40px;
   z-index: 100;
   animation: slideInFromRight 1s ease-in;
+}
+.showcase-form .rechaptcha {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .showcase-form .form-control {
   margin: 30px 0;
