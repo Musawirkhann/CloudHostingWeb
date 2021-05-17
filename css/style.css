@@ -101,7 +101,7 @@ pre {
 .showcase-form {
   position: relative;
   top: 60px;
-  height: 370px;
+  height: auto;
   width: 400px;
   padding: 40px;
   z-index: 100;
@@ -111,6 +111,9 @@ pre {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.showcase-form .rechaptcha .div {
+  width: 250px;
 }
 .showcase-form .form-control {
   margin: 30px 0;
